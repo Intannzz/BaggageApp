@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for Night Mode -->
+    <style name="Base.Theme.BaggageApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Maintain design colors in night mode -->
+        <item name="colorPrimary">@color/header_dark_blue</item>
+        <item name="colorPrimaryVariant">@color/header_dark_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Status Bar & Background -->
+        <item name="android:statusBarColor">@color/header_dark_blue</item>
+        <item name="android:windowBackground">@color/bg_sky_blue</item>
+
+        <!-- Default Font Family -->
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="header_dark_blue">#004D61</color>
+    <color name="bg_sky_blue">#D7F0FA</color>
+    <color name="text_navy">#0D3B66</color>
+    <color name="white">#FFFFFF</color>
+    <color name="btn_calculate_yellow">#FFC107</color>
+    <color name="btn_clear_red">#B71C1C</color>
+</resources>
