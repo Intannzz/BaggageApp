@@ -132,7 +132,7 @@ public class CalculatorActivity extends AppCompatActivity {
         } else if (id == R.id.action_share) {
             Intent shareIntent = new Intent(Intent.ACTION_SEND);
             shareIntent.setType("text/plain");
-            String shareBody = "Check out the Excess Baggage Fee Calculator app on GitHub: https://github.com/yourusername/namaprojek";
+            String shareBody = "Check out the Excess Baggage Fee Calculator app on GitHub by Intan: https://github.com/Intannzz/BaggageApp";
             shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Baggage Fee Calculator");
             shareIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
             startActivity(Intent.createChooser(shareIntent, "Share via"));
